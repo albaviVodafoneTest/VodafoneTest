@@ -59,15 +59,15 @@ Once you finish, make sure you `commit` and `push` all the files you have been w
 
 These are the **expected outcomes** you will be presenting during the first half of the technical interview:
 
- - [ ] Add comments to the Terraform module in the header section of [main.tf](./main.tf) that explains what the module does, and how to use it (as is if you did not improve it).
- - [ ] Populate the root `variable.tf` and `output.tf` with your best guesses about what you would expect from a well-written Terraform module (as is if you did not improve it).
- - [ ] Create an automated README file (markdown style) based on [terraform-docs](https://github.com/terraform-docs/terraform-docs) (as is if you did not improve it).
- - [ ] Create dynamically all DNS A-type records defined as JSON under `input-json` in the mock DNS server spun up via Docker. You can decide where to write the logic for reading the JSON inputs from; either in the Terraform module itself, or at the inputs level in the `exercise` example.
+ - [ X ] Add comments to the Terraform module in the header section of [main.tf](./main.tf) that explains what the module does, and how to use it (as is if you did not improve it).
+ - [ X ] Populate the root `variable.tf` and `output.tf` with your best guesses about what you would expect from a well-written Terraform module (as is if you did not improve it).
+ - [ X ] Create an automated README file (markdown style) based on [terraform-docs](https://github.com/terraform-docs/terraform-docs) (as is if you did not improve it).
+ - [ X ] Create dynamically all DNS A-type records defined as JSON under `input-json` in the mock DNS server spun up via Docker. You can decide where to write the logic for reading the JSON inputs from; either in the Terraform module itself, or at the inputs level in the `exercise` example.
 
 ## Optional Checklist
 
- - [ ] List possible enhancements you would love to incorporate to the Terraform module
- - [ ] Codify further Terraform functionality to support other types of DNS records defined in JSON format, following the same folder structure (e.g. CNAME)
+ - [ X ] List possible enhancements you would love to incorporate to the Terraform module
+ - [ X ] Codify further Terraform functionality to support other types of DNS records defined in JSON format, following the same folder structure (e.g. CNAME)
 
 ## Reference material
 

@@ -1,8 +1,9 @@
 {
     "addresses": [
-        "192.168.100.1"
+        "fdd5:e282:43b8:5303:dead:beef:cafe:babe",
+        "fdd5:e282:43b8:5303:cafe:babe:dead:beef"
     ],
     "ttl": 600,
     "zone": "example.com.",
-    "dns_record_type": "a"
+    "dns_record_type": "aaaa"
 }
